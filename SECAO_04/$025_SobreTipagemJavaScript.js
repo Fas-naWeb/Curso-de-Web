@@ -15,6 +15,7 @@ console.log(typeof qualquer)
 qualquer = 29
 console.log(typeof qualquer)
 
+
 // Aqui a variavel qualquer assume um tipo numero de ponto flutuante (real)
 qualquer = 3.4
 console.log(typeof qualquer)
