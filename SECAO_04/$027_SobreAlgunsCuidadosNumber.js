@@ -10,6 +10,13 @@
  // Retorna 5,o que acontece e que primeiro o javaScript converte o valor string em tipo numerico e assim faz o calculo
  console.log("10.2" / 2)
 
+ // Uma obs: Quando se utiliza o operador + a string tem importancia maior.O que aconteceria aqui e que a string e
+ // o literal seria concatenado ao envez de ser feito uma soma,retornaria 102
+ console.log("10" + 2)
+
+ // Ao contrario disso se voce subtrair o javascript vai fazer a operacao conforme foi feito com 10.2 / 2. E retornaria 8
+ console.log("10" - 2)
+
  // Outra situacao e que em outras linguagens a funcao abaixo duplicaria a palavra Show!
  // Porem em javaScript gera um NaN
  console.log("Show!" * 2)
