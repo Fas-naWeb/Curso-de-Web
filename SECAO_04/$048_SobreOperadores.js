@@ -1,3 +1,4 @@
+// Aprendendo sobre operadores utilizando o operador destruct
 const [a,b,c,d,e] = [1,2,3,4,5]
 
 const soma = a + b + c + d + e
